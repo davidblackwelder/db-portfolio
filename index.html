@@ -46,6 +46,7 @@
 		/>
 		<!-- Custom Stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/stylesheet.css" />
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" />
 	</head>
 
 	<body
@@ -956,6 +957,7 @@
 									name="contact"
 									data-netlify="true"
 									data-netlify-recaptcha="true"
+									netlify-honeypot="phone"
 									method="post"
 								>
 									<div class="row g-4">
@@ -966,6 +968,14 @@
 												class="form-control"
 												required
 												placeholder="Name"
+											/>
+										</div>
+										<div class="col-xl-6 special">
+											<input
+												name="phone"
+												type="text"
+												class="form-control"
+												placeholder="Phone"
 											/>
 										</div>
 										<div class="col-xl-6">
@@ -987,11 +997,6 @@
 											></textarea>
 										</div>
 									</div>
-									<div
-										class="col"
-										data-netlify-recaptcha="true"
-										data-theme="dark"
-									></div>
 									<p class="text-center mt-4 mb-0">
 										<button
 											id="submit-btn"

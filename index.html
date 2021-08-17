@@ -953,7 +953,9 @@
 								<form
 									id="contact-form"
 									class="form-dark"
-									action="php/mail.php"
+									name="contact"
+									data-netlify="true"
+									data-netlify-recaptcha="true"
 									method="post"
 								>
 									<div class="row g-4">
@@ -985,6 +987,7 @@
 											></textarea>
 										</div>
 									</div>
+									<div data-netlify-recaptcha="true"></div>
 									<p class="text-center mt-4 mb-0">
 										<button
 											id="submit-btn"

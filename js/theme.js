@@ -338,8 +338,6 @@
 	var form = $("#contact-form"); // contact form
 	var submit = $("#submit-btn"); // submit button
 
-	$(".g-recaptcha").attr("data-theme", "dark");
-
 	// form submit event
 	form.on("submit", function (e) {
 		e.preventDefault(); // prevent default form submit

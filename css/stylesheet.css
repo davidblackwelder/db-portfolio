@@ -2526,7 +2526,7 @@ hr {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(33, 37, 42, 0.7);
 	opacity: 0;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;

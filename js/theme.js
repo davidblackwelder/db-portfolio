@@ -1,7 +1,7 @@
 /*
 ================================================================
 * Template:  	 David Blackwelder - Personal Portfolio Template
-* Written by: 	 David Blackwelder - (davidblackwelder.com)
+* Written by: 	 David Blackwelder - (davidblackwelder.dev)
 * Description:   Main Custom Script File
 ================================================================
 */
